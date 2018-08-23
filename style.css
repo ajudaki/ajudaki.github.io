@@ -152,7 +152,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 2.5em;
     background-color: #ffffff;
-    color: #138fc2;
+    color: #13c239;
     border-radius: 100px;
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
@@ -172,9 +172,9 @@ input:-webkit-autofill:focus {
 
 .overlay:before,
 .sky-bg {
-    background: #ddd236;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ddd236), to(#ddd236));
-    background: linear-gradient(to bottom, #ddd236 0%, #ddd236 100%);
+    background: #e4d72c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e4d72c), to(#e4d72c));
+    background: linear-gradient(to bottom, #e4d72c 0%, ##e4d72c 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
 }
@@ -374,6 +374,7 @@ input:-webkit-autofill:focus {
 
 .anlge-bg {
     background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
+    fill: green;
 }
 
 .overlay {
